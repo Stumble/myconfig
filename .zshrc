@@ -79,7 +79,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias gopen='xdg-open'
+alias gopen='xdg-open 2> /dev/null'
 alias cls='clear'
 alias ll='ls -l'
 alias eim='TERM=xterm-256color emacs -nw'
@@ -92,14 +92,13 @@ alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 
 # spark stuff
-alias spark-shell='/home/stumble/spark/spark-2.0.0-bin-hadoop2.7/bin/spark-shell'
-alias spark-submit-local='/home/stumble/spark/spark-2.0.0-bin-hadoop2.7/bin/spark-submit --master "local[4]" --class '
-
+# alias spark-shell='/home/stumble/spark/spark-2.0.0-bin-hadoop2.7/bin/spark-shell'
+# alias spark-submit-local='/home/stumble/spark/spark-2.0.0-bin-hadoop2.7/bin/spark-submit --master "local[4]" --class '
 
 aliyun='120.24.244.99'
-openwrt='192.168.1.1'
-export NVM_DIR="/home/stumble/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# openwrt='192.168.1.1'
+# export NVM_DIR="/home/stumble/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # OPAM configuration
-. /home/stumble/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+# . /home/stumble/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
