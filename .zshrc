@@ -84,7 +84,6 @@ alias cls='clear'
 alias ll='ls -l'
 alias eim='TERM=xterm-256color emacs -nw'
 alias la='ls -a'
-alias aliyun='ssh 120.24.159.90'
 alias qq="nohup google-chrome --no-proxy-server --app=http://web.qq.com >/dev/null 2>/dev/null &"
 alias -s gz='tar -xzvf'
 alias -s tgz='tar -xzvf'
@@ -95,7 +94,6 @@ alias -s bz2='tar -xjvf'
 # alias spark-shell='/home/stumble/spark/spark-2.0.0-bin-hadoop2.7/bin/spark-shell'
 # alias spark-submit-local='/home/stumble/spark/spark-2.0.0-bin-hadoop2.7/bin/spark-submit --master "local[4]" --class '
 
-aliyun='120.24.244.99'
 # openwrt='192.168.1.1'
 # export NVM_DIR="/home/stumble/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
